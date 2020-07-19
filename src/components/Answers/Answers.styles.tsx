@@ -20,7 +20,7 @@ export const AnswerImageStyle = styled.img`
   height: 300px;
 
   @media only screen and (max-width: 600px) {
-    height: 500px;
+    width: 100%;
   }
 `;
 

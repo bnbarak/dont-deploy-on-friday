@@ -16,7 +16,7 @@ export const App = () => {
             <Route path="/" exact>
               <Homepage />
             </Route>
-            <Route path="/info">
+            <Route path="/about">
               <MoreInfo />
             </Route>
           </Switch>

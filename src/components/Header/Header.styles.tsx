@@ -8,12 +8,17 @@ export const HeaderStyle = styled.div`
   border-bottom: 1px solid;
 
   @media only screen and (max-width: 600px) {
-    padding: ${props => props.theme.spaceX2} ${props => props.theme.spaceX4};
+    padding: ${props => props.theme.spaceX1} ${props => props.theme.spaceX1};
   }
 `;
 
 export const HeaderButton = styled(ButtonStyle)`
   padding-left: 0;
+
+  @media only screen and (max-width: 600px) {
+    font-size: 18px;
+    padding: 5px 10px;
+  }
 `;
 
 export const LogoStyle = styled(LinkStyle)`
@@ -21,6 +26,10 @@ export const LogoStyle = styled(LinkStyle)`
   padding: ${props => props.theme.spaceX2} 0;
   font-size: ${props => props.theme.smallFontSize};
   cursor: pointer;
+
+  @media only screen and (max-width: 600px) {
+    font-size: 18px;
+  }
 `;
 
 export const LogoFlexContainer = styled.div`
@@ -36,7 +45,8 @@ export const LogoTextStyle = styled.span`
   border: 1px solid ${props => props.theme.fridayColor};
 
   @media only screen and (max-width: 600px) {
-    padding: ${props => props.theme.spaceX2} ${props => props.theme.spaceX4};
+    padding: 5px 10px;
+    font-size: 18px;
   }
 `;
 
@@ -51,7 +61,8 @@ export const LogoFridayStyle = styled(FridayStyle)`
   text-transform: initial;
 
   @media only screen and (max-width: 600px) {
-    padding: ${props => props.theme.spaceX2} ${props => props.theme.spaceX4};
+    padding: 5px 10px;
+    font-size: 18px;
   }
 `;
 
@@ -60,7 +71,7 @@ export const OtherTextStyle = styled.div`
   color: #9a9a9a;
 
   @media only screen and (max-width: 600px) {
-    font-size: 130%;
     padding-top: ${props => props.theme.spaceX2};
+    text-align: center;
   }
 `;

@@ -23,8 +23,8 @@ export const Header = () => {
     <HeaderStyle>
       <LogoFlexContainer>
         <Logo />
-        <HeaderButton onClick={() => history.push("/info")}>
-          More Information
+        <HeaderButton onClick={() => history.push("/about")}>
+          About
         </HeaderButton>
       </LogoFlexContainer>
       <OtherTextStyle>

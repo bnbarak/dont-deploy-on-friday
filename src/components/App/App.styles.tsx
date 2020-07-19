@@ -6,4 +6,8 @@ export const AppStyle = styled.div`
   color: ${props => props.theme.mainColor};
   height: 100vh;
   margin: auto;
+
+  @media only screen and (max-width: 600px) {
+    width: 100%;
+  }
 `;

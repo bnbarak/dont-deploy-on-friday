@@ -7,7 +7,6 @@ export const QuestionStyle = styled.div`
   height: 100px;
 
   @media only screen and (max-width: 600px) {
-    height: 180px;
   }
 `;
 
