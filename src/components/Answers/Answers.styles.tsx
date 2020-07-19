@@ -5,6 +5,9 @@ export const AnswersStyle = styled.div`
   padding: 30px;
   color: ${props => props.theme.secondaryColor};
   min-height: 100px;
+
+  @media only screen and (max-width: 600px) {
+  }
 `;
 
 export const QuotationStyle = styled.span`
@@ -15,6 +18,10 @@ export const QuotationStyle = styled.span`
 
 export const AnswerImageStyle = styled.img`
   height: 300px;
+
+  @media only screen and (max-width: 600px) {
+    height: 500px;
+  }
 `;
 
 export const AnswerImageCredit = styled.a`

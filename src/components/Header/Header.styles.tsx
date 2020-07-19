@@ -6,6 +6,10 @@ export const HeaderStyle = styled.div`
   padding: ${props => props.theme.spaceX2} 0;
 
   border-bottom: 1px solid;
+
+  @media only screen and (max-width: 600px) {
+    padding: ${props => props.theme.spaceX2} ${props => props.theme.spaceX4};
+  }
 `;
 
 export const HeaderButton = styled(ButtonStyle)`
@@ -30,6 +34,10 @@ export const LogoTextStyle = styled.span`
   padding: ${props => props.theme.spaceX1} ${props => props.theme.spaceX2};
   color: ${props => props.theme.mainColor};
   border: 1px solid ${props => props.theme.fridayColor};
+
+  @media only screen and (max-width: 600px) {
+    padding: ${props => props.theme.spaceX2} ${props => props.theme.spaceX4};
+  }
 `;
 
 export const LogoFridayStyle = styled(FridayStyle)`
@@ -41,9 +49,18 @@ export const LogoFridayStyle = styled(FridayStyle)`
   border: 1px solid ${props => props.theme.fridayColor};
   border-top: unset;
   text-transform: initial;
+
+  @media only screen and (max-width: 600px) {
+    padding: ${props => props.theme.spaceX2} ${props => props.theme.spaceX4};
+  }
 `;
 
 export const OtherTextStyle = styled.div`
   font-size: 18px;
   color: #9a9a9a;
+
+  @media only screen and (max-width: 600px) {
+    font-size: 130%;
+    padding-top: ${props => props.theme.spaceX2};
+  }
 `;
