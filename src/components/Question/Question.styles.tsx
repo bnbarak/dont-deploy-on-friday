@@ -14,6 +14,6 @@ export const QuestionStyle = styled.div`
 export const FridayStyle = styled.span`
   font-family: "Nova Mono", monospace;
   color: ${props => props.theme.fridayColor};
-  font-size: 34px;
+  font-size: 28px;
   font-weight: bold;
 `;
