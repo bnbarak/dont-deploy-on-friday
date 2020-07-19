@@ -6,7 +6,8 @@ const basePadding = 10;
 interface Theme {
   appWidth: string;
   fontSize: string;
-  buttonFontSize: string;
+  smallFontSize: string;
+  mainColor: string;
   borderColor: string;
   spaceX1: string;
   spaceX2: string;
@@ -23,10 +24,11 @@ interface ThemeProviderProps {
 const theme: Theme = {
   appWidth: "1024px",
   fontSize: "28px",
-  buttonFontSize: "24px",
+  smallFontSize: "24px",
+  mainColor: "#fff",
   borderColor: "red",
-  fridayColor: "red",
-  secondaryColor: "#2d2d2d",
+  fridayColor: "#e600e8",
+  secondaryColor: "#cccccc",
   spaceX1: `${basePadding * 1}px`,
   spaceX2: `${basePadding * 2}px`,
   spaceX3: `${basePadding * 3}px`,

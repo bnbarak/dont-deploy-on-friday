@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const AnswersStyle = styled.div`
   text-align: center;
   padding: 30px;
-  // background: #ffffff5e;
   color: ${props => props.theme.secondaryColor};
   min-height: 100px;
 `;

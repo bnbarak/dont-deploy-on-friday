@@ -6,6 +6,7 @@ export const QuestionStyle = styled.div`
   line-height: 40px;
   font-size: 85%;
   height: 100px;
+  color
 `;
 
 export const FridayStyle = styled.span`
