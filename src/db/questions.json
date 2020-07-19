@@ -1,0 +1,32 @@
+{
+  "questions": [
+    {
+      "text": "Your boss ask you to deploy on a Friday at 4pm?",
+      "id": "your-boss"
+    },
+    {
+      "text": "Got confidence in your code and about to deploy on a Friday at 5pm?",
+      "id": "feel-confidence"
+    },
+    {
+      "text": "Just a single line PR to deploy on a Friday at 4:30pm?",
+      "id": "single-line"
+    },
+    {
+      "text": "PM ask you to release at 3pm on a summer Friday?",
+      "id": "pm-asks"
+    },
+    {
+      "text": "You're two days behind, QA team needs two week to test, deploy on a Friday at 3:45PM?",
+      "id": "two-days-behind"
+    },
+    {
+      "text": "It is just an ENV variable change, so what if it is 4pm on a Friday?",
+      "id": "env-var"
+    },
+    {
+      "text": "All I changed was Double to Float in a SQL schema, it will be fine and it's only 3pm on a Friday",
+      "id": "double-float"
+    }
+  ]
+}
