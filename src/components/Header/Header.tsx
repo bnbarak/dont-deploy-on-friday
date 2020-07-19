@@ -28,7 +28,7 @@ export const Header = () => {
         </HeaderButton>
       </LogoFlexContainer>
       <OtherTextStyle>
-        Why you should not deploy or release on a Friday
+          Why you should <strong>not</strong> deploy or release on a Friday
       </OtherTextStyle>
     </HeaderStyle>
   );

@@ -23,7 +23,7 @@ export const MoreInfo = () => {
 
       <code>
         To contribute to the reasons DB, please raise a PR on{" "}
-        <LinkStyle href="https://github.com/bnbarak/dont-deploy-on-friday/CONTRIBUTE.md">
+        <LinkStyle href="https://github.com/bnbarak/dont-deploy-on-friday/blob/master/CONTRIBUTE.md">
           GitHub
         </LinkStyle>{" "}
         with your reasons why not to deploy and release on a Friday.
