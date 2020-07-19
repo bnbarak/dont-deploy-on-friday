@@ -10,7 +10,7 @@ export const MoreInfo = () => {
       <p>
         {renderTextWithFriday(
           "In 2017, my friend David Paradise showed a cool website that gives\n" +
-            "        you reasons why not to deploy on a Friday"
+            "        you reasons why not to deploy on a Friday."
         )}
       </p>
       <p>
@@ -28,6 +28,9 @@ export const MoreInfo = () => {
         </LinkStyle>{" "}
         with your reasons why not to deploy and release on a Friday.
       </code>
+
+      <p>I hope I saved you a long Friday Night at the [home] office,</p>
+      <p>Barak Ben Noon</p>
     </MoreInfoStyle>
   );
 };

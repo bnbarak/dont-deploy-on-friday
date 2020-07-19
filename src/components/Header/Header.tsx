@@ -4,7 +4,9 @@ import {
   HeaderStyle,
   LogoStyle,
   LogoTextStyle,
-  LogoFridayStyle
+  LogoFridayStyle,
+  LogoFlexContainer,
+  OtherTextStyle
 } from "./Header.styles";
 import { useHistory } from "react-router-dom";
 
@@ -19,10 +21,15 @@ export const Header = () => {
   const history = useHistory();
   return (
     <HeaderStyle>
-      <Logo />
-      <HeaderButton onClick={() => history.push("/info")}>
-        More Information
-      </HeaderButton>
+      <LogoFlexContainer>
+        <Logo />
+        <HeaderButton onClick={() => history.push("/info")}>
+          More Information
+        </HeaderButton>
+      </LogoFlexContainer>
+      <OtherTextStyle>
+        Why you should not deploy or release on a Friday
+      </OtherTextStyle>
     </HeaderStyle>
   );
 };

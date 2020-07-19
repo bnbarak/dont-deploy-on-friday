@@ -4,8 +4,7 @@ import { FridayStyle } from "../Question/Question.styles";
 
 export const HeaderStyle = styled.div`
   padding: ${props => props.theme.spaceX2} 0;
-  display: flex;
-  justify-content: space-between;
+
   border-bottom: 1px solid;
 `;
 
@@ -18,6 +17,11 @@ export const LogoStyle = styled(LinkStyle)`
   padding: ${props => props.theme.spaceX2} 0;
   font-size: ${props => props.theme.smallFontSize};
   cursor: pointer;
+`;
+
+export const LogoFlexContainer = styled.div`
+  display: flex;
+  justify-content: space-between;
 `;
 
 export const LogoTextStyle = styled.span`
@@ -36,4 +40,10 @@ export const LogoFridayStyle = styled(FridayStyle)`
   padding: ${props => props.theme.spaceX1} ${props => props.theme.spaceX1};
   border: 1px solid ${props => props.theme.fridayColor};
   border-top: unset;
+  text-transform: initial;
+`;
+
+export const OtherTextStyle = styled.div`
+  font-size: 18px;
+  color: #9a9a9a;
 `;

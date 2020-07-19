@@ -5,18 +5,59 @@
       "content": "Because someone forgot to release the Back-End and they already left to The Hamptons",
       "id": "back-end"
     },
-
     {
       "type": "text",
       "content": "Because the FE forgot to update their API spec, and now I'm learning React at 9pm on a Friday",
       "id": "fe"
     },
-
     {
       "type": "image",
       "content": "0001.jpg",
       "info": "https://medium.com/openclassrooms-product-design-and-engineering/do-not-deploy-on-friday-92b1b46ebfe6",
       "id": "0001"
+    },
+    {
+      "type": "image",
+      "content": "0002.jpg",
+      "info": "https://makeameme.org/meme/release-friday-monday",
+      "id": "0002"
+    },
+    {
+      "type": "image",
+      "content": "0003.jpg",
+      "info": "http://www.quickmeme.com/meme/3u46yc",
+      "id": "0003"
+    },
+    {
+      "type": "image",
+      "content": "0004.jpg",
+      "info": "https://memegenerator.net/instance/56433604/you-shall-not-pass-you-shall-not-release-on-friday-afternoon",
+      "id": "0004"
+    },
+    {
+      "type": "text",
+      "content": "Because AWS bounced only half of the servers, and now I'm looking for an senior manager to approve another release - but they are all in The Hamptons",
+      "id": "aws-1"
+    },
+    {
+      "type": "text",
+      "content": "Because the SQL fixtures didn't fully worked, and now I'm manually changing the DB at a 11pm on a Friday",
+      "id": "db-1"
+    },
+    {
+      "type": "text",
+      "content": "One word, \"Typo\"",
+      "id": "typo"
+    },
+    {
+      "type": "text",
+      "content": "Because I forgot to rebase, and now I find myself copy paste code from GitHub website at 7pm on a Friday",
+      "id": "rebase"
+    },
+    {
+      "type": "text",
+      "content": "Because we had an happy hour at noon and I have to release drunk",
+      "id": "rebase"
     }
   ]
 }
