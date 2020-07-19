@@ -1,7 +1,7 @@
 import React from "react";
 import { QuestionStyle } from "./Question.styles";
 import { questions } from "../../db/questions.json";
-import {renderTextWithFriday} from "../../utils/helperFunctions";
+import { renderTextWithFriday } from "../../utils/helperFunctions";
 
 const numOfQuestions = questions.length;
 
@@ -15,5 +15,7 @@ export const Question = () => {
 
   const randomQuestion: QuestionType = questions[randomQuestionIndex];
 
-  return <QuestionStyle>{renderTextWithFriday(randomQuestion.text)}</QuestionStyle>;
+  return (
+    <QuestionStyle>{renderTextWithFriday(randomQuestion.text)}</QuestionStyle>
+  );
 };
