@@ -1,13 +1,11 @@
-import React, { useState } from "react";
+import React  from "react";
 import {
   AnswerImageCredit,
   AnswerImageStyle,
   AnswersStyle,
-  QuotationStyle
 } from "./Answers.styles";
 import { answers } from "../../db/answers.json";
 import { renderTextWithFriday } from "../../utils/helperFunctions";
-import { type } from "os";
 
 const numOfAnswers = answers.length;
 

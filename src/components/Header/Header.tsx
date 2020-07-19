@@ -6,19 +6,23 @@ import {
   LogoTextStyle,
   LogoFridayStyle
 } from "./Header.styles";
+import { useHistory } from "react-router-dom";
 
 const Logo = () => (
-  <LogoStyle>
+  <LogoStyle href="/">
     <LogoTextStyle>Deploy On a </LogoTextStyle>
     <LogoFridayStyle>Friday</LogoFridayStyle>
   </LogoStyle>
 );
 
 export const Header = () => {
+  const history = useHistory();
   return (
     <HeaderStyle>
       <Logo />
-      <HeaderButton>More Information</HeaderButton>
+      <HeaderButton onClick={() => history.push("/info")}>
+        More Information
+      </HeaderButton>
     </HeaderStyle>
   );
 };

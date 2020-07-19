@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { ButtonStyle } from "../../utils/GeneralStyles";
+import { ButtonStyle, LinkStyle } from "../../utils/GeneralStyles";
 import { FridayStyle } from "../Question/Question.styles";
 
 export const HeaderStyle = styled.div`
@@ -13,7 +13,7 @@ export const HeaderButton = styled(ButtonStyle)`
   padding-left: 0;
 `;
 
-export const LogoStyle = styled.a`
+export const LogoStyle = styled(LinkStyle)`
   text-transform: uppercase;
   padding: ${props => props.theme.spaceX2} 0;
   font-size: ${props => props.theme.smallFontSize};

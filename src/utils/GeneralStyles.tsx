@@ -15,3 +15,8 @@ export const ButtonStyle = styled.button`
     cursor: pointer;
   }
 `;
+
+
+export const LinkStyle = styled.a`
+    text-decoration: unset;
+`

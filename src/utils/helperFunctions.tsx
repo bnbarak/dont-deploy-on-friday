@@ -1,5 +1,5 @@
 import { FridayStyle } from "../components/Question/Question.styles";
-import React, { ReactDOM } from "react";
+import React from "react";
 
 export const renderTextWithFriday = (text: string) => {
   if (text.includes("Friday")) {
