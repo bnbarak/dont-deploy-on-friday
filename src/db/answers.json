@@ -1,0 +1,22 @@
+{
+  "answers": [
+    {
+      "type": "text",
+      "content": "Because someone forgot to release the Back-End and they already left to The Hamptons",
+      "id": "back-end"
+    },
+
+    {
+      "type": "text",
+      "content": "Because the FE forgot to update their API spec, and now I'm learning React at 9pm on a Friday",
+      "id": "fe"
+    },
+
+    {
+      "type": "image",
+      "content": "0001.jpg",
+      "info": "https://medium.com/openclassrooms-product-design-and-engineering/do-not-deploy-on-friday-92b1b46ebfe6",
+      "id": "0001"
+    }
+  ]
+}

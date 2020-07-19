@@ -13,6 +13,7 @@ interface Theme {
   spaceX3: string;
   spaceX4: string;
   fridayColor: string;
+  secondaryColor: string;
 }
 
 interface ThemeProviderProps {
@@ -24,7 +25,8 @@ const theme: Theme = {
   fontSize: "28px",
   buttonFontSize: "24px",
   borderColor: "red",
-  fridayColor: 'red',
+  fridayColor: "red",
+  secondaryColor: "#2d2d2d",
   spaceX1: `${basePadding * 1}px`,
   spaceX2: `${basePadding * 2}px`,
   spaceX3: `${basePadding * 3}px`,
