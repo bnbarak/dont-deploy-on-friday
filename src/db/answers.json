@@ -94,7 +94,7 @@
       "content": "A problem in a makefile at 2pm - and you didn't understood C in college, now you have to learn it at 4pm on a Friday",
       "id": "make-file"
     },
-    {k
+    {
       "type": "text",
       "content": "Because on 6pm on a Friday, you forgot a \"here 123\" print. But no one is in the office to approve your \"fix type\" PR",
       "id": "print"
