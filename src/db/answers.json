@@ -57,7 +57,47 @@
     {
       "type": "text",
       "content": "Because we had an happy hour at noon and I have to release drunk",
-      "id": "rebase"
+      "id": "happy-hours"
+    },
+    {
+      "type": "text",
+      "content": "Because the SSL certificate expired in the middle of the build process, and now all you see is 404",
+      "id": "ssl-cert"
+    },
+    {
+      "type": "text",
+      "content": "Corporate forces you to update your O.S, and now you're spending Friday night watching 99% bar for three hours",
+      "id": "os-update"
+    },
+    {
+      "type": "text",
+      "content": "Jessica from the data team typed \"True\" instead of \"true]\", and you can't understand why it is 10pm and you keep refreshing AWS",
+      "id": "jessica"
+    },
+    {
+      "type": "text",
+      "content": "/dev/sda1 is full and you need to choose if to\"rm -rf\" and get a drink, or start the back-up process",
+      "id": "disk-full"
+    },
+    {
+      "type": "text",
+      "content": "You have an Nginx problem without a stack overflow answer on a Friday at 7pm",
+      "id": "nginx-issue"
+    },
+    {
+      "type": "text",
+      "content": "node-sass hits again",
+      "id": "node-sass"
+    },
+    {
+      "type": "text",
+      "content": "A problem in a makefile at 2pm - and you didn't understood C in college, now you have to learn it at 4pm on a Friday",
+      "id": "make-file"
+    },
+    {k
+      "type": "text",
+      "content": "Because on 6pm on a Friday, you forgot a \"here 123\" print. But no one is in the office to approve your \"fix type\" PR",
+      "id": "print"
     }
   ]
 }
