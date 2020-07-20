@@ -71,7 +71,7 @@
     },
     {
       "type": "text",
-      "content": "Jessica from the data team typed \"True\" instead of \"true]\", and you can't understand why it is 10pm and you keep refreshing AWS",
+      "content": "Jessica from the data team typed \"True\" instead of \"true\", and you can't understand why it is 10pm on a Friday and you keep refreshing AWS",
       "id": "jessica"
     },
     {
@@ -98,6 +98,30 @@
       "type": "text",
       "content": "Because on 6pm on a Friday, you forgot a \"here 123\" print. But no one is in the office to approve your \"fix type\" PR",
       "id": "print"
+    },
+    {
+      "type": "text",
+      "content": "Deploy of Fridays. Try to fix on Saturday. Roll back on Sunday. Back to normal on Monday",
+      "id": "imgur",
+      "info": "https://imgur.com/a/xyBhouE?ref=hvper.com&utm_source=hvper.com&utm_medium=website"
+    },
+    {
+      "type": "text",
+      "content": "Sorry honey, I can't go with you to your parents' house for Thanksgiving. Yes, we have a crisis at work. If I don't fix it I'll be fired",
+      "id": "Thanksgiving",
+      "info": "https://imgur.com/a/xyBhouE?ref=hvper.com&utm_source=hvper.com&utm_medium=website"
+    },
+    {
+      "type": "text",
+      "content": "The golden rule: Only deploy on Friday afternoon if you're willing to bet your entire weekend on it going smoothl",
+      "id": "golden-rule",
+      "info": "https://imgur.com/a/xyBhouE?ref=hvper.com&utm_source=hvper.com&utm_medium=website"
+    },
+    {
+      "type": "image",
+      "content": "0005.png",
+      "info": "https://imgur.com/a/xyBhouE?ref=hvper.com&utm_source=hvper.com&utm_medium=website",
+      "id": "0005"
     }
   ]
 }
