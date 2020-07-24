@@ -113,7 +113,7 @@
     },
     {
       "type": "text",
-      "content": "The golden rule: Only deploy on Friday afternoon if you're willing to bet your entire weekend on it going smoothl",
+      "content": "The golden rule: Only deploy on Friday afternoon if you're willing to bet your entire weekend on it going smooth.",
       "id": "golden-rule",
       "info": "https://imgur.com/a/xyBhouE?ref=hvper.com&utm_source=hvper.com&utm_medium=website"
     },
@@ -122,6 +122,21 @@
       "content": "0005.png",
       "info": "https://imgur.com/a/xyBhouE?ref=hvper.com&utm_source=hvper.com&utm_medium=website",
       "id": "0005"
+    },
+    {
+      "type": "text",
+      "content": "There are thousands of employees in your company, one of them is an idiot, and he will make sure you will spend your Friday evening debugging Perl scripts.",
+      "id": "idiots"
+    },
+    {
+      "type": "text",
+      "content": "Your deployment deleted an entire data center, and now you're diving on the I90 with physical backup disk on a Friday afternoon.",
+      "id": "i90"
+    },
+    {
+      "type": "text",
+      "content": "Your tests passed, but it was only because you're lucky, and now all you see is a white page on a Friday afternoon.",
+      "id": "lucky-tests"
     }
   ]
 }
