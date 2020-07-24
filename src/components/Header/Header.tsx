@@ -6,7 +6,8 @@ import {
   LogoTextStyle,
   LogoFridayStyle,
   LogoFlexContainer,
-  OtherTextStyle
+  OtherTextStyle,
+  DonateStyle
 } from "./Header.styles";
 import { useHistory } from "react-router-dom";
 
@@ -21,6 +22,12 @@ export const Header = () => {
   const history = useHistory();
   return (
     <HeaderStyle>
+      <DonateStyle>
+        <a href="https://secure.actblue.com/donate/ms_blm_homepage_2019">
+          Support
+        </a>{" "}
+        the movment
+      </DonateStyle>
       <LogoFlexContainer>
         <Logo />
         <HeaderButton onClick={() => history.push("/about")}>
@@ -28,7 +35,7 @@ export const Header = () => {
         </HeaderButton>
       </LogoFlexContainer>
       <OtherTextStyle>
-          Why you should <strong>not</strong> deploy or release on a Friday
+        Why you should <strong>not</strong> deploy or release on a Friday
       </OtherTextStyle>
     </HeaderStyle>
   );

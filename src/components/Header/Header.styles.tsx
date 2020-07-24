@@ -75,3 +75,21 @@ export const OtherTextStyle = styled.div`
     text-align: center;
   }
 `;
+
+export const DonateStyle = styled.div`
+  height: 50px;
+  color: #fce21b;
+  font-size: 20px;
+  text-align: center;
+
+  a {
+    border: 1px solid;
+    padding: 3px 10px;
+    cursor: pointer;
+    text-decoration: unset;
+  }
+  
+  a:visited {
+    color: #fce21b;
+  }
+`;
